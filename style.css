@@ -1,5 +1,5 @@
 .container1{
-    background-color: black;
+    background-color:rgb(49, 49, 51) ;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -55,6 +55,10 @@ ul,li{
 td,img{
     gap: 10px;
 }
+button{
+    border: none;
+    padding: 30px 50px;
+}
 #h3{
     color: rgb(75, 112, 75);
     font-size: 30px;
@@ -62,13 +66,15 @@ td,img{
 .page{
     display: flex;
     gap: 10px;
+    border-style: solid 1px;
+    border-color: rgb(27, 27, 100);
 }
 #p1{
     color: rgb(61, 136, 111);
     font-size: 30px;
 }
 .cont2{
-    background-color: rgb(23, 23, 24);
+    background-color:rgb(49, 49, 51);
     padding: 2%;
 
 }
@@ -77,11 +83,46 @@ td,img{
     color: white;
     margin-left: 100px;
 }
-.table,th, td{
-    /* border: solid; */
-    border: none;
-    border-collapse: collapse;
+table{
+    margin-bottom: 40px;
 }
+th{
+    text-align: center;
+
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border: none;
+}
+th,td{
+    padding: 40px;
+}
+tr:nth-child(odd){
+    background-color: rgb(41, 43, 56);
+}
+#td{
+    color: rgb(27, 228, 27);
+}
+#td1{
+    color: maroon;
+}
+td button{
+    padding: 20px 30px;
+    border: none;
+
+    /* margin: 30px; */
+}
+#butt{
+    background-color: rgb(196, 62, 107);
+}
+
+
+/* .table,th, td{
+    /* border: solid; */
+    /* border: none; */
+    /* border-collapse: collapse; */ 
+/* }
 th,td{
     text-align: left;
     border: 2px solid;
@@ -89,17 +130,30 @@ th,td{
     
 
     /* margin: 10%; */
-}
+/* } */ 
 #ICON{
     height: 20px;
     width: 30px;
+}
+#p1{
+    color: rgb(6, 238, 238);
 }
 #ICON2{
     height: 50px;
     width: 50px;
 
 }
+#bdy{
+    display: flex;
+    gap: 300px;
+}
+.fg{
+    display: flex;
+    gap: 50px;
+    margin-bottom: 50px;
+}
 .footer{
+    margin-top: 50px;
     padding: 2%;
     display: flex;
     gap: 80px;
@@ -110,6 +164,7 @@ th,td{
 
 }
 #footer2{
+    margin-left: 100px;
     display: flex;
     gap: 50px;
 
@@ -159,6 +214,10 @@ th,td{
     padding: 1%;
 
 }
+#butt1{
+    background-color:rgb(49, 49, 51);
+    border-style: solid ;
+}
 button{
     border-radius: 20px;
     color: white;
@@ -184,6 +243,14 @@ button{
 #image{
     width: 30px;
     height: 40px;
+}
+#lin{
+    display: flex;
+    gap: 0px;
+    padding: 0%;
+}
+#line{
+    height: 150px;
 }
 .cla{
     display: flex;
